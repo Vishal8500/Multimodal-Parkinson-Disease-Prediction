@@ -13,12 +13,14 @@ Our approach integrates **deep learning** and **traditional machine learning mod
 ## 📁 Project Structure
 
 ```
-Parkinson/
-├── Speech_Analysis_Notebook.ipynb       # Audio preprocessing & CNN modeling
-├── Gait_Analysis_Notebook.ipynb         # Gait signal extraction & CNN-LSTM modeling
-├── Handwriting_Analysis_Notebook.ipynb  # Image-based ResNet-50 handwriting analysis
-├── Multimodal_Fusion_MLP.ipynb          # MLP trimodal fusion
-├── Multimodal_Fusion_RF_XGBoost.ipynb   # RF & XGBoost fusion models
+Multimodal-Parkinson-Disease-Prediction/
+├── Speech - Feature Extraction.ipynb       # Audio preprocessing & CNN modeling
+├── Gait - Feature Extraction.ipynb       # Gait signal extraction & CNN-LSTM modeling
+├── Handwriting - Feature Extraction.ipynb  # Image-based ResNet-50 handwriting analysis
+├── Multimodal_Fusion_MLP.ipynb          # MLP and XGBoost trimodal fusion
+├── AUDIO+GAIT - Bimodal.ipynb   # RF fusion models
+├── AUDIO+HAND - Bimodal.ipynb   # RF fusion models
+├── HAND+GAIT - Bimodal.ipynb   # RF fusion models
 └── README.md                            # Project documentation
 ```
 
